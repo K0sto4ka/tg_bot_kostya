@@ -6,7 +6,7 @@ TOKEN = "5742426469:AAFd__uxzh5WWFnrD6gKRh2n00yFrXpTdZg"
 def echo(update, context):
     txt = update.message.text
     if txt.lower() in ['привет', 'салам']:
-        txt = "И тебе Салам мой друг!"
+        txt = "И тебе Салам пополам мой друг!"
     update.message.reply_text(txt)
 
 def main():
