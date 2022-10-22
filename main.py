@@ -11,8 +11,11 @@ def echo(update, context):
         txt = "Пока жив роднуля"
     update.message.reply_text(txt)
 
-def start (update, context):
+def start(update, context):
     update.message.reply_text("Это учебный бот.\nДля вывоза помощи наберите /help")
+
+def help(update, context):
+    update.message.reply_text("Для вызова помощи наберите /help \nДля поиска в википедии наберите /wiki <текст для поиска>")
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
