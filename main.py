@@ -10,6 +10,7 @@ def get_ll_span(address):
     if not toponym:
         return None, None
 
+
     # Координаты центра топонима:
     toponym_coodrinates = toponym["Point"]["pos"]
     # Долгота и Широта :

@@ -2,6 +2,7 @@ import wikipedia
 wikipedia.set_lang('ru')
 
 
+
 def search_wiki(word):
     print(word)
     try:

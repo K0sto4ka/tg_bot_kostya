@@ -30,6 +30,7 @@ def get_ll_span(address):
 
     return (ll, span)
 
+
 text = input()
 print("Веду поиск, ожидайте ...")
 geocoder_uri = geocoder_request_template = "http://geocode-maps.yandex.ru/1.x/"
